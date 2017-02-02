@@ -2,7 +2,7 @@ package example;
 
 import java.io.Serializable;
 
-public class PersonBean implements Serializable{
+public  abstract class PersonBean implements Serializable{
 		// FIELDS:
 	 	private String firstName;
 	    private String lastName;
