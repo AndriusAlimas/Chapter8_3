@@ -26,5 +26,21 @@ will set a reference type, then a class type must be a concrete subclass -->
 			<td>First Name:</td>
 			<td><jsp:getProperty name='person' property='firstName' /></td>
 		</tr>
+		<tr>
+			<td>Last Name:</td>
+			<td><jsp:getProperty name="person" property="lastName" /></td>
+		</tr>
+		<tr>
+			<td>Employee ID:</td>
+			<td><jsp:getProperty name="person" property="empID" /></td>
+		</tr>
+		<tr>
+			<td>Start Year:</td>
+			<td><jsp:getProperty name="person" property="startYear" /></td>
+		</tr>
+		<tr>
+			<td>Pay Rate:</td>
+			<td><jsp:getProperty name='person' property='payRate' /></td>
+		</tr>
 </body>
 </html>
